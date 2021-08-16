@@ -24,6 +24,8 @@ Test for macOS 12.0
 - [x] USB Audio Input/Output
 - [x] All USB Ports
 - [x] Intel Wi-Fi & Bluetooth
+- [x] Sleep
+- [x] Brightness Keys
 - [x] NVRAM
 
 ### BIOS Settings:
