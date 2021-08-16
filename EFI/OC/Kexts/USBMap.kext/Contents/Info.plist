@@ -5,13 +5,13 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleGetInfoString</key>
-	<string>1.0 Copyright © 2018-2020 Headsoft. All rights reserved.</string>
+	<string>v1.0</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.Headsoft.USBPorts</string>
+	<string>com.corpnewt.USBMap</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>USBPorts</string>
+	<string>USBMap</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -22,30 +22,26 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookAir9,1-XHC</key>
+		<key>MacBookPro16,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBMergeNub</string>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
-			<string>AppleUSBMergeNub</string>
-			<key>IONameMatch</key>
-			<string>XHC</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x34ed8086</string>
-			<key>IOProbeScore</key>
-			<integer>5000</integer>
+			<string>AppleUSBHostMergeProperties</string>
+			<key>IOParentMatch</key>
+			<dict>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>pcidebug</key>
+					<string>0:20:0</string>
+				</dict>
+			</dict>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
-				<key>kUSBSleepPortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBSleepPowerSupply</key>
-				<integer>2600</integer>
-				<key>kUSBWakePortCurrentLimit</key>
-				<integer>2100</integer>
-				<key>kUSBWakePowerSupply</key>
-				<integer>3200</integer>
+				<key>kUSBMuxEnabled</key>
+				<true/>
 				<key>port-count</key>
 				<data>
 				EgAAAA==
@@ -54,10 +50,10 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>Comment</key>
+						<string>C20</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
-						<key>name</key>
-						<string>HS01</string>
 						<key>port</key>
 						<data>
 						AQAAAA==
@@ -65,10 +61,10 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>Comment</key>
+						<string>R20</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
-						<key>name</key>
-						<string>HS02</string>
 						<key>port</key>
 						<data>
 						AgAAAA==
@@ -78,19 +74,24 @@
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
-						<key>name</key>
-						<string>HS03</string>
 						<key>port</key>
 						<data>
 						AwAAAA==
 						</data>
 					</dict>
+					<key>HS04</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						BAAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
 					<key>HS05</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
-						<key>name</key>
-						<string>HS05</string>
 						<key>port</key>
 						<data>
 						BQAAAA==
@@ -98,63 +99,133 @@
 					</dict>
 					<key>HS06</key>
 					<dict>
+						<key>Comment</key>
+						<string>L20</string>
 						<key>UsbConnector</key>
 						<integer>0</integer>
-						<key>name</key>
-						<string>HS06</string>
 						<key>port</key>
 						<data>
 						BgAAAA==
 						</data>
 					</dict>
+					<key>HS07</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						BwAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
+					<key>HS08</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						CAAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
+					<key>HS09</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						CQAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
 					<key>HS10</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>255</integer>
-						<key>name</key>
-						<string>HS10</string>
 						<key>port</key>
 						<data>
 						CgAAAA==
 						</data>
 					</dict>
-					<key>SS02</key>
+					<key>HS11</key>
 					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>name</key>
-						<string>SS02</string>
-						<key>port</key>
+						<key>#port</key>
 						<data>
-						EgAAAA==
+						CwAAAA==
 						</data>
-					</dict>
-					<key>SS04</key>
-					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>name</key>
-						<string>SS04</string>
+					</dict>
+					<key>HS12</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						DAAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
+					<key>SS01</key>
+					<dict>
+						<key>Comment</key>
+						<string>C30</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
 						<key>port</key>
 						<data>
 						DQAAAA==
 						</data>
 					</dict>
-					<key>SS05</key>
+					<key>SS02</key>
 					<dict>
+						<key>Comment</key>
+						<string>L30</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
-						<key>name</key>
-						<string>SS05</string>
 						<key>port</key>
 						<data>
 						DgAAAA==
 						</data>
 					</dict>
+					<key>SS03</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						DwAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
+					<key>SS04</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						EAAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
+					<key>SS05</key>
+					<dict>
+						<key>#port</key>
+						<data>
+						EQAAAA==
+						</data>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+					</dict>
+					<key>SS06</key>
+					<dict>
+						<key>Comment</key>
+						<string>R30</string>
+						<key>UsbConnector</key>
+						<integer>3</integer>
+						<key>port</key>
+						<data>
+						EgAAAA==
+						</data>
+					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookAir9,1</string>
+			<string>MacBookPro16,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>
