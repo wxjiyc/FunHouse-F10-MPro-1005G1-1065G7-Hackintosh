@@ -16,7 +16,7 @@ Test for macOS 12.0
 | SMBIOS           | MacBookPro16,2                         |
 | BootLoader       | OpenCore 0.7.2                         |
 
-### What works:
+### What Works:
 
 - [x] Intel® UHD Graphics G1 iGPU
 - [x] Intel® UHD Graphics G1 iGPU Video Acceleration
@@ -25,8 +25,14 @@ Test for macOS 12.0
 - [x] All USB Ports
 - [x] Intel Wi-Fi & Bluetooth
 - [x] Sleep
+- [x] Power Key
 - [x] Brightness Keys
 - [x] NVRAM
+
+### Wait To Be resolved:
+
+- [ ] Type-C to DP Output
+- [ ] Trackpad
 
 ### BIOS Settings:
 
