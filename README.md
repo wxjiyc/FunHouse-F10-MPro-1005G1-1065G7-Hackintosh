@@ -1,6 +1,7 @@
 # FunHouse-F10-MPro-1005G1-Hackintosh
 EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.2 bootloader  
 Test for macOS 12.0
+
 点击链接加入[Funhouse F10 MPro 黑苹果交流群](https://jq.qq.com/?_wv=1027&k=v9za1jFA)
 
 ### Computer Spec:
