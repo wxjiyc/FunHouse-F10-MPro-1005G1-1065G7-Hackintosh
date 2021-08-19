@@ -31,7 +31,7 @@ Test for macOS 12.0
 - [x] Brightness Keys
 - [x] NVRAM
 
-### Wait To Be resolved:
+### What Not Work:
 
 - [ ] Type-C to DP Output
 - [ ] Trackpad
