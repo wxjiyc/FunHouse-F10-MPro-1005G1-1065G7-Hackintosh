@@ -26,6 +26,7 @@ Test for macOS 12.0
 - [x] USB Audio Input/Output
 - [x] All USB Ports
 - [x] Intel Wi-Fi & Bluetooth
+- [x] Trackpad
 - [x] Sleep
 - [x] Power Key
 - [x] Brightness Keys
@@ -34,11 +35,10 @@ Test for macOS 12.0
 ### What Not Work:
 
 - [ ] Type-C to DP Output
-- [ ] Trackpad
 
 ### BIOS Settings:
 
-* DVMT:64M
+* DVMT:128M
 
 ## Credits
 
