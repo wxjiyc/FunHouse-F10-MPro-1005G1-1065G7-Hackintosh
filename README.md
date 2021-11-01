@@ -1,5 +1,5 @@
 # FunHouse-F10-MPro-1005G1-Hackintosh
-EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.2 bootloader  
+EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.4 bootloader  
 Test for macOS 12.0
 
 点击链接加入[Funhouse F10 MPro 黑苹果交流群](https://jq.qq.com/?_wv=1027&k=v9za1jFA)
@@ -10,13 +10,13 @@ Test for macOS 12.0
 | ---------------- | ---------------------------------------|
 | CPU              | Intel® Core™ i3-1005G1                 |
 | iGPU             | Intel® UHD Graphics G1                 |
-| RAM              | 8GB LPDDR4X 3200Mhz                     |
-| NVMe             | Kioxia XG6 256GB                       |
+| RAM              | 16GB LPDDR4X 3200Mhz                   |
+| NVMe             | Kingston NVMe 512GB                    |
 | Monitor          | BOE 13.5" 2256*1504                    |
 | Audio            | Realtek USB Audio                      |
 | WiFi & Bluetooth | Intel Wi-Fi 6 AX201                    |
 | SMBIOS           | MacBookPro16,2                         |
-| BootLoader       | OpenCore 0.7.2                         |
+| BootLoader       | OpenCore 0.7.4                         |
 
 ### What Works:
 
