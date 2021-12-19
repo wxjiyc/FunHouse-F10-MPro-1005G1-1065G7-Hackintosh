@@ -1,6 +1,5 @@
 # FunHouse-F10-MPro-1005G1-Hackintosh
-EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.4 bootloader  
-Test for macOS 12.0
+EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.6 bootloader  
 
 点击链接加入[Funhouse F10 MPro 黑苹果交流群](https://jq.qq.com/?_wv=1027&k=v9za1jFA)
 
@@ -16,7 +15,7 @@ Test for macOS 12.0
 | Audio            | Realtek USB Audio                      |
 | WiFi & Bluetooth | Intel Wi-Fi 6 AX201                    |
 | SMBIOS           | MacBookPro16,2                         |
-| BootLoader       | OpenCore 0.7.4                         |
+| BootLoader       | OpenCore 0.7.6                         |
 
 ### What Works:
 
