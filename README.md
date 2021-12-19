@@ -1,5 +1,5 @@
-# FunHouse-F10-MPro-1005G1-Hackintosh
-EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.6 bootloader  
+# FunHouse-F10-MPro-1005G1-1065G7-Hackintosh
+EFI for FunHouse-F10-MPro-1005G1-1065G7 with OpenCore 0.7.6 bootloader  
 
 点击链接加入[Funhouse F10 MPro 黑苹果交流群](https://jq.qq.com/?_wv=1027&k=v9za1jFA)
 
@@ -7,9 +7,9 @@ EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.6 bootloader
 
 | Component        | Specifications                         |
 | ---------------- | ---------------------------------------|
-| CPU              | Intel® Core™ i3-1005G1/1065G7          |
-| iGPU             | Intel® UHD Graphics G1/G7              |
-| RAM              | 16GB LPDDR4X 3200Mhz                   |
+| CPU              | Intel® Core™ i3-1005G1 / 1065G7        |
+| iGPU             | Intel® UHD Graphics G1 / G7            |
+| RAM              | 16GB LPDDR4x 3200MHz                   |
 | NVMe             | Kingston NVMe 512GB                    |
 | Monitor          | BOE 13.5" 2256*1504                    |
 | Audio            | Realtek USB Audio                      |
@@ -37,7 +37,7 @@ EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.6 bootloader
 
 ### BIOS Settings:
 
-* DVMT:128M
+* Flash the mod BIOS
 
 ## Credits
 
