@@ -7,8 +7,8 @@ EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.6 bootloader
 
 | Component        | Specifications                         |
 | ---------------- | ---------------------------------------|
-| CPU              | Intel® Core™ i3-1005G1                 |
-| iGPU             | Intel® UHD Graphics G1                 |
+| CPU              | Intel® Core™ i3-1005G1/1065G7          |
+| iGPU             | Intel® UHD Graphics G1/G7              |
 | RAM              | 16GB LPDDR4X 3200Mhz                   |
 | NVMe             | Kingston NVMe 512GB                    |
 | Monitor          | BOE 13.5" 2256*1504                    |
@@ -19,8 +19,8 @@ EFI for FunHouse-F10-MPro-1005G1 with OpenCore 0.7.6 bootloader
 
 ### What Works:
 
-- [x] Intel® UHD Graphics G1 iGPU
-- [x] Intel® UHD Graphics G1 iGPU Video Acceleration
+- [x] Intel® UHD Graphics G1/G7 iGPU
+- [x] Intel® UHD Graphics G1/G7 iGPU Video Acceleration
 - [x] USB Audio Internal Speakers
 - [x] USB Audio Input/Output
 - [x] All USB Ports
