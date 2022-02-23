@@ -6,7 +6,7 @@ EFI for FunHouse-F10-MPro-1005G1-1065G7 with OpenCore 0.7.6 bootloader
 ### Computer Spec:
 
 | Component        | Specifications                         |
-| ---------------- | ---------------------------------------|
+| ---------------- | -------------------------------------- |
 | CPU              | Intel® Core™ i3-1005G1 / 1065G7        |
 | iGPU             | Intel® UHD Graphics G1 / G7            |
 | RAM              | 16GB LPDDR4x 3200MHz                   |
